@@ -30,7 +30,7 @@ export default function Loginauth() {
     //e.preventDefault();
     //console.log(e.target.value, e.target.name); nmae + username
     e.preventDefault();
-    const response = await fetch('http://localhost:8080/login',{
+    const response = await fetch('https://backend-loginsignup.onrender.com/login',{
       // method:'GET'
       method:'POST',
       body:JSON.stringify(form), //data form he bhjne ke leye string me bhjke
