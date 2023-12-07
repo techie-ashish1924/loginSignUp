@@ -38,7 +38,7 @@ export default function SignUp() {
 
 
    e.preventDefault();
-    const response = await fetch('http://localhost:8080/signup',{
+    const response = await fetch('https://backend-loginsignup.onrender.com/signup',{
       // method:'GET'
       method:'POST',
       body:JSON.stringify(form), //data form he bhjne ke leye string me bhjke
